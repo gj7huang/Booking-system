@@ -7,7 +7,7 @@
 npm install 
 
 # Running the app at localhost:3000
-npm start
+npm run start
 ```
 
 
