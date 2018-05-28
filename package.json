@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-watch app.js",
-    "db": "babel-watch db.js"
+    "start": "babel-watch app.js"
   },
   "author": "",
   "license": "ISC",
