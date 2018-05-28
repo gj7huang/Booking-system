@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+    <title>Ticket Reservation System</title>
+</head>
+<body>
+    <div id="app">
+        <div id="header">
+            <h1>Ticket Reservation System</h1>
+            <div id="form">
+                <label for="cus_box">Customer: </label>
+                <select id="cus_box">
+                    <option value="null" selected disabled>Choice One Identity</option>
+                </select>
+
+                <label for="mov_box">Movie: </label>
+                <select id="mov_box">
+                    <option value="null" selected disabled>Choice One Movie</option>
+                </select>
+                <button id="book-btn">Booking</button>
+            </div>
+        </div>
+
+        <div id="ticket-list"></div>
+    </div>
+    
+    <script src="/js/all.js"></script>
+</body>
+</html>
