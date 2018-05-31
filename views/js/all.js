@@ -39,7 +39,7 @@ function updateTicketList() {
         dataType: 'json'
     })
     .done(res => {
-        console.log(res);
+        // console.log(res);
         $("#ticket-list").html('');
         res.map((el) => {
             $("#ticket-list").append(`
@@ -76,7 +76,7 @@ function book() {
             }
         })
         .done(res => {
-            console.log(res);
+            // console.log(res);
             updateTicketList();
         })
     }
